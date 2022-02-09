@@ -1,7 +1,7 @@
 <html>
 	<body>
         <form action="ejercicio_06.php" method="post">
-            <p>A formula é: t =√ 2h/g sendo g = 9.81m/s2
+            <p>A formula é: t =√ 2h/g sendo g = 9.81m/s2</p>
             <p>Escribe o valor de h: <input type="text" name="nu1"/></p>
             <p><input type="submit" value="Submit" /></p>
         </form>
