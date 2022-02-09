@@ -1,7 +1,7 @@
 <html>
 	<body>
         <form action="ejercicio_05.php" method="post">
-            <p>A ecuación é: ax + b = 0
+            <p>A ecuación é: ax + b = 0</p>
             <p>Escribe o primer número: <input type="text" name="nu1"/></p>
             <p>Escribe o segundo número: <input type="text" name="nu2"/></p>
             <p><input type="submit" value="Submit" /></p>
