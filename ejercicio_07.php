@@ -11,7 +11,7 @@
             $num1 = $_POST['nu1'];
             $num2 = $_POST['nu2'];
             $num3 = $_POST['nu3'];
-			if (is_numeric($num1) | is_numeric($num2) | is_numeric($num3)) {
+			if (is_numeric($num1) && is_numeric($num2) && is_numeric($num3)) {
                     $resu= ($num1+$num2+$num3)/3;
                     echo "A media é: $resu";
             }else
