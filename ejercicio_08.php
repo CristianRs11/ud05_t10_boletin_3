@@ -12,7 +12,7 @@
             $num2 = $_POST['nu2'];
             $num3 = $_POST['nu3'];
 			if (is_numeric($num1) | is_numeric($num2) | is_numeric($num3)) {
-                if ($num1>10|$num2>10|$num3>10){
+                if ($num1>10 && $num2>10 && $num3>10){
                     echo "O máximo de nota é un 10";
                 }
                     else{
