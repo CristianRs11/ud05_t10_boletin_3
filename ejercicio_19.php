@@ -41,7 +41,6 @@
             else{
                 echo "Tes que escribir un número.";
             }
-            
         ?>
     </body>
 </html>
